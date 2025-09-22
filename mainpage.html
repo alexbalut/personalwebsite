@@ -1,12 +1,105 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexander Balut - Web Developer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+    .service {
+      background: #f4f4f4;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: #fff;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is my first HTML page.</p>
+  <header>
+    <h1>Alexander Balut</h1>
+    <p>Web Developer | Helping Businesses Build Their Online Presence</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi! I'm Alexander, a web developer passionate about creating clean, 
+      modern, and user-friendly websites. Whether you’re a small business, 
+      restaurant, or entrepreneur, I can help you get online and stand out.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>My Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Website Design</h3>
+        <p>Custom websites tailored to your business needs.</p>
+      </div>
+      <div class="service">
+        <h3>Website Redesign</h3>
+        <p>Give your old site a modern, responsive facelift.</p>
+      </div>
+      <div class="service">
+        <h3>SEO Optimization</h3>
+        <p>Improve visibility and get more customers through Google.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:alex.e.balut@gmailcom">alex.e.balut@gmail.com</a></p>
+    <p>Phone: (514) 827-7045</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Alexander Balut. All rights reserved.</p>
+  </footer>
 </body>
 </html>
+
